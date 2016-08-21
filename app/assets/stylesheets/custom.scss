@@ -1,0 +1,82 @@
+/*--Following two lines includes bootstrap framework--*/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+	padding-top: 60px;
+}
+
+.center {
+	text-align:center;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center h1 {
+	margin-bottom: 10px;
+}
+
+/*--typography--*/
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/*header*/
+#logo {
+	float:left;
+	color:#ffffff;
+	font-size: 1.7em;
+	text-transform:uppercase;
+	padding-top:9px;
+	letter-spacing: -1px;
+	font-weight:bold;
+}
+
+#logo:hover {
+	text-decoration:none;
+	color:#ffffff;
+}
+
+/*--footer--*/
+.footer {
+	border-top: 1px solid #eaeaea;
+	margin-top: 45px;
+	padding-top: 5px;
+	color: #777777;
+	
+	small {
+		float:left;
+	}
+	nav ul {
+		list-style:none;
+		float:right;
+
+		li {
+			float:left;
+			margin-left: 11px;
+		}
+	}
+}
